@@ -24,6 +24,7 @@ import LocalPhoneTwoToneIcon from '@mui/icons-material/LocalPhoneTwoTone';
 import DraftsTwoToneIcon from '@mui/icons-material/DraftsTwoTone';
 import FaxTwoToneIcon from '@mui/icons-material/FaxTwoTone';
 
+
 const data = [
   { icon: <MapTwoToneIcon />, label: '40 8th Avenue Northmead Benoni' },
   { icon: <DraftsTwoToneIcon />, label: 'PO Box 15570 Farrarmere 1518 Gauteng' },

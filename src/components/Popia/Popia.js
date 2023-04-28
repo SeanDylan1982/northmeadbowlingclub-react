@@ -6,24 +6,28 @@ export default function Popia() {
   return (
     <Box
       sx={{
+        width: '100%',
+        height: 360,
         display: 'flex',
         flexWrap: 'wrap',
         '& > :not(style)': {
-          m: 10,
-          width: 800,
-          height: 608,
+          m: 1,
+          width: '100%',
+          height: 360,
         },
       }}
     >
       <Paper
         elevation={6}
         sx={{
+          width: '100%',
+          height: 360,
           display: 'flex',
           flexWrap: 'wrap',
           '& > :not(style)': {
             m: 1,
-            width: 800,
-            height: 608,
+            width: '100%',
+            height: 360,
           },
         }}
       >

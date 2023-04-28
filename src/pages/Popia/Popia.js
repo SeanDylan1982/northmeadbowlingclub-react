@@ -1,12 +1,12 @@
 import Page from 'material-ui-shell/lib/containers/Page'
 import React from 'react'
-import Popia from 'components/Popia/Popia'
+import LayoutPopia from '../../components/Layout/LayoutPopia'
 
 const PopiaPage = () => {
 
   return (
     <Page pageTitle='Popia | Northmead Bowling Club'>
-      <Popia />
+      <LayoutPopia />
     </Page>
   )
 }

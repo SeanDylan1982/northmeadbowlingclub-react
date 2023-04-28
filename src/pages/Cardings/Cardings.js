@@ -1,12 +1,12 @@
 import Page from 'material-ui-shell/lib/containers/Page'
 import React from 'react'
-import Cardings from '../../components/Cardings/Cardings'
+import LayoutCardings from '../../components/Layout/LayoutCardings'
 
 const CardingsPage = () => {
 
   return (
     <Page pageTitle='Cardings | Northmead Bowling Club'>
-      <Cardings />
+      <LayoutCardings />
     </Page>
   )
 }

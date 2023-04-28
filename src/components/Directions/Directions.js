@@ -6,7 +6,11 @@ export default function Directions() {
   return (
     <Box
       sx={{
+        position: 'relative',
+        width: '100%',
+        height: '100%',
         display: 'flex',
+        flexDirection: 'column',
         flexWrap: 'wrap',
         '& > :not(style)': {
           m: 1,
@@ -18,15 +22,22 @@ export default function Directions() {
       <Paper
         elevation={6}
         sx={{
+          width: 350,
+          height: 250,
+          display: 'flex',
+          flexDirection: 'row',
+          flexWrap: 'wrap',
           margin: 2,
-          padding: 2,
-          
+          padding: 2,   
+          '& > :not(style)': {
+            m: 1,
+            width: 350,
+            height: 250,
+          },
         }}
       >
         <p>
         <h4>ALBERTON BC 2nd Avenue, New Redruth, Alberton.</h4>
-        </p>
-        <p>
         <ul>
           <li>From Geldenhuis interchange follow N12 Vereeniging indicators.</li>
           <li>Turn off at Alberton/Voortrekker Road exit.</li>
@@ -40,9 +51,18 @@ export default function Directions() {
       <Paper
         elevation={6}
         sx={{
+          width: 350,
+          height: 250,
+          display: 'flex',
+          flexDirection: 'row',
+          flexWrap: 'wrap',
           margin: 2,
           padding: 2,
-          
+          '& > :not(style)': {
+            m: 1,
+            width: 350,
+            height: 250,
+          },
         }}
       >
         <p>

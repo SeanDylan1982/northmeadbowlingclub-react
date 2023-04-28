@@ -1,12 +1,12 @@
 import Page from 'material-ui-shell/lib/containers/Page'
 import React from 'react'
-import Album from 'components/Album/Album'
+import LayoutGallery from '../../components/Layout/LayoutGallery'
 
 const GalleryPage = () => {
 
   return (
     <Page pageTitle='Gallery | Northmead Bowling Club'>
-      <Album />
+      <LayoutGallery />
     </Page>
   )
 }

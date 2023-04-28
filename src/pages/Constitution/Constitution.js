@@ -1,12 +1,12 @@
 import Page from 'material-ui-shell/lib/containers/Page'
 import React from 'react'
-import Constitution from 'components/Constitution/Constitution'
+import LayoutConstitution from '../../components/Layout/LayoutConstitution'
 
 const ConstitutionPage = () => {
 
   return (
     <Page pageTitle='Constitution | Northmead Bowling Club'>
-      <Constitution />
+      <LayoutConstitution />
     </Page>
   )
 }
